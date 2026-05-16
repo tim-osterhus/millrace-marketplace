@@ -1,0 +1,40 @@
+{
+  "schema_version": "millrace.package.manifest.v1",
+  "package": {
+    "id": "integration.local_docs.reader",
+    "name": "Local Docs Reader Adapter",
+    "version": "0.1.0",
+    "category": "integration_adapter"
+  },
+  "compatibility": {
+    "millrace": ">=0.1.0 <1.0.0",
+    "manifest_schema": "millrace.package.manifest.v1"
+  },
+  "capabilities": [
+    "context.read",
+    "artifact.write"
+  ],
+  "credentials": [
+    {
+      "id": "docs_token",
+      "required": false,
+      "broker": "local_capability_gateway"
+    }
+  ],
+  "integrations": [
+    {
+      "id": "local_docs",
+      "credential_id": "docs_token"
+    }
+  ],
+  "skills": [],
+  "artifacts": [
+    {
+      "path": "package.manifest.json",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      }
+    }
+  ]
+}

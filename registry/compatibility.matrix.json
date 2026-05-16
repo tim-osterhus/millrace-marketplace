@@ -1,0 +1,16 @@
+{
+  "schema_version": "millrace.package.compatibility.matrix.v1",
+  "millrace_version": "0.1.0",
+  "manifest_schema": "millrace.package.manifest.v1",
+  "supported_categories": [
+    "loop_pack",
+    "integration_adapter",
+    "channel_adapter",
+    "memory_pack",
+    "surface_pack",
+    "diagnostic_pack"
+  ],
+  "accepted_ranges": [
+    ">=0.1.0 <1.0.0"
+  ]
+}

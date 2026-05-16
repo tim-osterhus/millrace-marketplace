@@ -1,0 +1,26 @@
+{
+  "schema_version": "millrace.package.manifest.v1",
+  "package": {
+    "id": "invalid.missing.capabilities",
+    "name": "Invalid Missing Capabilities",
+    "version": "0.1.0",
+    "category": "diagnostic_pack"
+  },
+  "compatibility": {
+    "millrace": ">=0.1.0 <1.0.0",
+    "manifest_schema": "millrace.package.manifest.v1"
+  },
+  "capabilities": [],
+  "credentials": [],
+  "integrations": [],
+  "skills": [],
+  "artifacts": [
+    {
+      "path": "package.manifest.json",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "9999999999999999999999999999999999999999999999999999999999999999"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "millrace.package.manifest.v1",
+  "package": {
+    "id": "invalid.private.material",
+    "name": "Invalid Private Material",
+    "version": "0.1.0",
+    "category": "diagnostic_pack"
+  },
+  "compatibility": {
+    "millrace": ">=0.1.0 <1.0.0",
+    "manifest_schema": "millrace.package.manifest.v1"
+  },
+  "capabilities": [
+    "trace.note"
+  ],
+  "credentials": [],
+  "integrations": [],
+  "skills": [],
+  "artifacts": [
+    {
+      "path": "/Users/example/private-notes.md",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "4444444444444444444444444444444444444444444444444444444444444444"
+      }
+    }
+  ]
+}

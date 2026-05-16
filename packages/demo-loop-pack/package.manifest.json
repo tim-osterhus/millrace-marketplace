@@ -1,0 +1,29 @@
+{
+  "schema_version": "millrace.package.manifest.v1",
+  "package": {
+    "id": "loop-pack.demo.echo",
+    "name": "Demo Echo Loop Pack",
+    "version": "0.1.0",
+    "category": "loop_pack"
+  },
+  "compatibility": {
+    "millrace": ">=0.1.0 <1.0.0",
+    "manifest_schema": "millrace.package.manifest.v1"
+  },
+  "capabilities": [
+    "runner.invoke",
+    "context.read"
+  ],
+  "credentials": [],
+  "integrations": [],
+  "skills": [],
+  "artifacts": [
+    {
+      "path": "package.manifest.json",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    }
+  ]
+}

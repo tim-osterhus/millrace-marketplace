@@ -1,0 +1,31 @@
+{
+  "schema_version": "millrace.package.manifest.v1",
+  "package": {
+    "id": "invalid.unknown.fields",
+    "name": "Invalid Unknown Fields",
+    "version": "0.1.0",
+    "category": "diagnostic_pack"
+  },
+  "compatibility": {
+    "millrace": ">=0.1.0 <1.0.0",
+    "manifest_schema": "millrace.package.manifest.v1"
+  },
+  "capabilities": [
+    "trace.note"
+  ],
+  "credentials": [],
+  "integrations": [],
+  "skills": [],
+  "artifacts": [
+    {
+      "path": "package.manifest.json",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "5555555555555555555555555555555555555555555555555555555555555555"
+      }
+    }
+  ],
+  "raw_plugin_blob": {
+    "anything": true
+  }
+}

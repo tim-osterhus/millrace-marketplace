@@ -1,0 +1,66 @@
+{
+  "schema_version": "millrace.package.registry.index.v1",
+  "registry_id": "millrace.local.reference",
+  "packages": [
+    {
+      "id": "loop-pack.demo.echo",
+      "version": "0.1.0",
+      "category": "loop_pack",
+      "manifest_path": "packages/demo-loop-pack/package.manifest.json",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "81a8a536643d2a897ca27155859ea9dd8511470a6419904f17d6ed998b4a1b92"
+      }
+    },
+    {
+      "id": "integration.local_docs.reader",
+      "version": "0.1.0",
+      "category": "integration_adapter",
+      "manifest_path": "packages/local-docs-adapter/package.manifest.json",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "3c1eadc36342d9823202899028a326adc3c63a3eaa81c004ba89ed42c46d8fcd"
+      }
+    },
+    {
+      "id": "channel.simulator.operator",
+      "version": "0.1.0",
+      "category": "channel_adapter",
+      "manifest_path": "packages/channel-simulator/package.manifest.json",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "96286da08a71816441660c2cc2be6c60b403af6c95a37593021d97cb258c79e8"
+      }
+    },
+    {
+      "id": "memory.fixture.notes",
+      "version": "0.1.0",
+      "category": "memory_pack",
+      "manifest_path": "packages/memory-fixture/package.manifest.json",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "b8b11df897ee171595356588fe32dad22f9d05cb82ae2b18c09ee0293175cb67"
+      }
+    },
+    {
+      "id": "surface.fixture.dashboard",
+      "version": "0.1.0",
+      "category": "surface_pack",
+      "manifest_path": "packages/surface-fixture/package.manifest.json",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "9136170158b04b8641bb252f03ffa2817fadc8d837f957f68c25cb84b2e88926"
+      }
+    },
+    {
+      "id": "diagnostic.skill.check",
+      "version": "0.1.0",
+      "category": "diagnostic_pack",
+      "manifest_path": "packages/diagnostic-skill-check/package.manifest.json",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "9dfc8433374af12b5c0019f95dc636b046a52ec768ccd9a7eddecebebaa8b59e"
+      }
+    }
+  ]
+}
