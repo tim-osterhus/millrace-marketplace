@@ -1,1 +1,7 @@
 .DS_Store
+millrace-agents/
+.millracer/
+*.sqlite
+*.sqlite3
+*.db
+*.log
